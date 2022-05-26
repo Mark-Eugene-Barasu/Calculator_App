@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Black Jack App</title>
+</head>
+<body>
+
+    <main>
+        <!-- operand section -->
+        <section id="section1">
+            <input type="number" placeholder="0" name="" id="num1-el">
+            <input type="number" placeholder="0" name="" id="num2-el">
+        </section>
+
+        <!-- operator section -->
+        <section id="section2">
+            <button onclick="add();">&plus;</button>
+            <button onclick="subtract();">&minus;</button>
+            <button onclick="divide();">&divide;</button>
+            <button onclick="multiply();">&times;</button>
+        </section>
+        
+        <!-- Output section -->
+        <span id="sum-el">Sum: </span>
+    </main>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
